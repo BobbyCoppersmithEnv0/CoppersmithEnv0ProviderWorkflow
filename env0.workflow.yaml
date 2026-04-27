@@ -1,0 +1,12 @@
+environments:
+  CreateProjectAssignTeams:
+    name: Create Project Assign Teams
+    templateName: 'CoppersmithEnv0CreateProjectsAssignTeams'
+  AssignTemplates:
+    name: Assign Templates
+    templateName: 'CoppersmithAddTemplatesToProject'
+    needs:
+      - CreateProjectAssignTeams
+
+settings:
+  environmentRemovalStrategy: destroy
