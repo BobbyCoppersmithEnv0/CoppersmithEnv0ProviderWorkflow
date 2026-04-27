@@ -4,7 +4,7 @@ environments:
     templateName: 'CoppersmithEnv0CreateProjectsAssignTeams'
   AssignTemplates:
     name: Assign Templates
-    templateName: 'CoppersmithAddTemplatesToProject'
+    templateName: 'CoppersmithAddTemplatesWorkflow'
     needs:
       - CreateProjectAssignTeams
 
